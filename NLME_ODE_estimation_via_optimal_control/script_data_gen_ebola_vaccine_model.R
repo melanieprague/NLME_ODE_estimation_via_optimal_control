@@ -2,6 +2,7 @@
 ######## DATA GENERATION FOR SECTION 4.3.1
 ############################################
 
+###TEST MELANIE EDIT
 
 pathnames <- list.files(pattern="[.]R$", path="function_model_and_sims//", full.names=TRUE);
 sapply(pathnames, FUN=source);
